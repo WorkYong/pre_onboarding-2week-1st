@@ -1,9 +1,11 @@
 # compiled output
 /dist
+
 /node_modules
-nest-cli.json
-package-lock.json
-/config
+
+.env
+
+/src/configs
 
 # Logs
 logs
