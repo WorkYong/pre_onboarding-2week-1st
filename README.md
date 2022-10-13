@@ -80,7 +80,8 @@ $ npm start : dev
 - email과 password를 req.body로 받아와 회원가입을 합니다.
 - 유효성검사로 인하여 email이 중복되면 존재하는 이메일 처리하였습니다.
 - bcrypt를 이용하여 비밀번호 암호화를 하였습니다.
-- JWT TOKEN과 PayLoad를 이용하여 인증 인가를하여 로그인합니다.
+- JWT TOKEN과 PayLoad를 이용하여 인증 인가를하여 토큰을 발급합니다.
+- 로그인이 
 
 ## API doc
 
