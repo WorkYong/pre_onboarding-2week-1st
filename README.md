@@ -89,4 +89,4 @@ $ npm start : dev
 - 김교은 : ()  👉 [Postman API doc]
 - 김민우 : ()  👉 [Postman API doc]
 - 김현정 : (사용자 팔로우/언팔로우 & 차단/차단해제)  👉 [Postman API doc](https://documenter.getpostman.com/view/22723303/2s83zpJg3C#intro)
-- 박정용 : (회원가입, 로그인) 👉 [Postman API doc] https://documenter.getpostman.com/view/22204904/2s83zpK1Da
+- 박정용 : (회원가입, 로그인) 👉 [Postman API doc](https://documenter.getpostman.com/view/22204904/2s83zpK1Da)
