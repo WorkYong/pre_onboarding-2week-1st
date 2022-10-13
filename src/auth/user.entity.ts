@@ -1,4 +1,6 @@
-import { BaseEntity, Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from "typeorm";
+import { BaseEntity, Column, CreateDateColumn, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from "typeorm";
+
+// import {Block} from 
 
 @Entity()
 @Unique(['email'])
@@ -20,4 +22,16 @@ export class User extends BaseEntity {
 
     @UpdateDateColumn({ name: 'updated_at' })
     updatedAt: Date;
-}
+
+    // @OneToMany((type) => Block, (block) => user.parent)
+    // children: User[]
+
+    // @OneToMany((type) => Block, (block) => user.parent)
+    // children: User[]
+    
+    // @OneToMany((type) => Block, (block) => user.parent)
+    // children: User[]
+
+    // @OneToMany((type) => Block, (block) => user.parent)
+    // children: User[]
+}   
