@@ -40,7 +40,7 @@ export class CommentController {
     await this.commentService.deleteComment(+id);
     return Object.assign({
       data: { id: id },
-      statusCode: 200,
+      statusCode: 204,
       statusMsg: `DELETED_COMMENT`,
     });
   }
@@ -63,7 +63,7 @@ export class CommentController {
     await this.commentService.deleteReaction(+id);
     return Object.assign({
       data: { id: id },
-      statusCode: 200,
+      statusCode: 204,
       statusMsg: `DELETED_REACTION`,
     });
   }
