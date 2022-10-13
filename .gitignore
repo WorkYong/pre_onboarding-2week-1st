@@ -7,6 +7,8 @@
 
 /src/configs
 
+/config
+
 # Logs
 logs
 *.log
