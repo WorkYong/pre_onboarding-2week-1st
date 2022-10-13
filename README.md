@@ -77,15 +77,16 @@ $ npm start : dev
 
 ### 4. 회원가입, 로그인 기능 (박정용)
 
--
-
-
+- email과 password를 req.body로 받아와 회원가입을 합니다.
+- 유효성검사로 인하여 email이 중복되면 존재하는 이메일 처리하였습니다.
+- bcrypt를 이용하여 비밀번호 암호화를 하였습니다.
+- JWT TOKEN과 PayLoad를 이용하여 인증 인가를하여 로그인합니다.
 
 ## API doc
 
 ### Postman
 
-- 김교은 : (회원정보 수정기능)  👉 [Postman API doc]
-- 김민우 : (로그인)  👉 [Postman API doc]
+- 김교은 : ()  👉 [Postman API doc]
+- 김민우 : ()  👉 [Postman API doc]
 - 김현정 : (사용자 팔로우/언팔로우 & 차단/차단해제)  👉 [Postman API doc](https://documenter.getpostman.com/view/22723303/2s83zpJg3C#intro)
-- 박정용 : (회원가입, 로그인) 👉 [Postman API doc]
+- 박정용 : (회원가입, 로그인) 👉 [Postman API doc] https://documenter.getpostman.com/view/22204904/2s83zpK1Da
