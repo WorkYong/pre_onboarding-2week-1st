@@ -1,5 +1,5 @@
 import { Body, Controller, Delete, Get, Param, Post, Res } from '@nestjs/common';
-import { GetUserByEmail } from '../common/get-user-by-email';
+import { GetUserByEmail } from './dto/get-user-by-email';
 import { FollowsService } from './follows.service';
 
 @Controller('follows')

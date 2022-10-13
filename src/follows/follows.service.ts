@@ -1,7 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { BlocksRepository } from '../blocks/blocks.repository';
-// import { UsersRepository } from '../users/users.repository'; 
-/*  users 쪽 겹치면 충돌날거 같아서 제쪽에선 빼고 올립니다! 나중에 다합칠 때 이부분에 만들어진 usersrepository 추가하면됩니다!   */
+import { UsersRepository } from './users.repository';
 import { FollowsRepository } from './follows.repository';
 
 @Injectable()
